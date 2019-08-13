@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './LifeCycle';
 import './index.css';
 
 
 ReactDOM.render(
-    <App nr={5} />,
+    <App />,
     document.getElementById('root')
 );
 
